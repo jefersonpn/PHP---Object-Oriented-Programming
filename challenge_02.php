@@ -2,12 +2,12 @@
 
 class Produto {
 
-    var $descricao;
-    var $preco;
-    var $categoria = "Sem categoria";
-    var $marca;
+    public $descricao;
+    public $preco;
+    public $categoria = "Sem categoria";
+    public $marca;
 
-    function ShowDetails() {
+    public function ShowDetails() {
         return "Descrição: ". $this->descricao . "<br />".
                 "Preço: ". $this->preco . "<br />".
                 "Categoria: ". $this->categoria . "<br />".
@@ -18,10 +18,10 @@ class Produto {
 
 class Pastilha extends Produto {
 
-    var $categoria = "Freio";
-    var $classificacao;
-
-    function ShowDetails() {
+    Public $categoria = "Freio";
+    Public $classificacao;
+ 
+    Public function ShowDetails() {
         return 
                "Descrição: ". $this->descricao . "<br />".
                 "Preço: R$". $this->preco . "<br />".
