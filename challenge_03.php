@@ -93,9 +93,7 @@ echo "<b>Passing the weight in Pounds and setting in Kg: </b>";
 echo $bike1->set_weight_lbs(22.0462) . "<br /><br />";
 
 echo "<b>Bike1 have the weight of </b>" . $bike1->get_weight_kg() . " and it has ". $bike1->wheels_details() . "<br />";
- 
 echo "<b>Bike2 have the weight of </b>" . $bike2->get_weight_kg(). " and it has ". $bike2->wheels_details() . "<br />";
-echo $bike2->wheels_details();
 
 // Getting all VARs is set up in side the Object.
 echo "<b>What VARS are set in Bicycle: </b>";
